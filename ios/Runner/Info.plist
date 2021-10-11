@@ -10,6 +10,12 @@
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Use Image Library to take a picture.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Use Camera to take a picture.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Use Camera to take Videos.</string>
 	<key>CFBundleName</key>
 	<string>app_26_great_places</string>
 	<key>CFBundlePackageType</key>
