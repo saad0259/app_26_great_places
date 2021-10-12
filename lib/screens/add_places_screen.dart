@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../providers/great_places.dart';
 import '../widgets/input_image.dart';
+import '../widgets/input_location.dart';
 
 class AddPlacesScreen extends StatefulWidget {
   static const routeName = '/add-places-screen';
@@ -28,7 +29,6 @@ class _AddPlacesScreenState extends State<AddPlacesScreen> {
     Provider.of<GreatPlaces>(context, listen: false)
         .addPlace(_titleController.text, _pickedImage!);
     Navigator.of(context).pop();
-
   }
 
   @override
@@ -52,6 +52,10 @@ class _AddPlacesScreenState extends State<AddPlacesScreen> {
                       controller: _titleController,
                     ),
                     InputImage(_selectImage),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    InputLocation(),
                     // TextButton(onPressed: (){}, child: null),
                   ],
                 ),

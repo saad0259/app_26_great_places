@@ -1,8 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.app_26_great_places">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
    <application
+
+
         android:label="app_26_great_places"
         android:icon="@mipmap/ic_launcher">
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyDGVdifKHexYzYZjIF615HPm5e00AzqO4g"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

@@ -16,6 +16,10 @@
 	<string>Use Camera to take a picture.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Use Camera to take Videos.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Use Map to get location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Use Map to get location</string>
 	<key>CFBundleName</key>
 	<string>app_26_great_places</string>
 	<key>CFBundlePackageType</key>
